@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { AlertController, ToastController, ModalController } from '@ionic/angular';
+import { ModalComponent } from './components/modal/modal.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'MyIonicDemo';
+  
+
 }
